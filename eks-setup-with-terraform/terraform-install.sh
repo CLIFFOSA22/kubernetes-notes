@@ -10,4 +10,6 @@ export PATH=$PATH:/usr/local/bin
  echo  "export PATH=$PATH:/usr/local/bin" >> ~/.bashrc
 # Source .bashrc to reflect for current session
  source ~/.bashrc 
- terraform -version
+
+#To verify if terraform was installed, run below
+#terraform -v
